@@ -2,7 +2,7 @@
 $access_token = require "token.php";
 
 
-$url = 'https://api.line.me/v2/oauth/verify';
+$url = 'https://api.line.me/oauth2/v2.1/verify';
 
 $headers = array('Authorization: Bearer ' . $access_token);
 
